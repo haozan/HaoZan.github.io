@@ -41,6 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          routeBasePath: `/`,
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -48,7 +49,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          routeBasePath: `/`,
+          
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -79,12 +80,12 @@ const config = {
           src: 'img/undraw_male.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '文档',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: '文档',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/haozan/HaoZan.github.io',
@@ -97,16 +98,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '文档',
+            title: '镐赞的生产力',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '关于',
+                to: '/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               // {
               //   label: 'Stack Overflow',
